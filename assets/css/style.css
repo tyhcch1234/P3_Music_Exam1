@@ -509,3 +509,11 @@ ul.plain li{margin:4px 0}
 }
 
 .hand-ic{width:100%;height:auto;display:block;min-width:96px}
+
+@media (max-width:760px){
+  .tab{padding:7px 11px; font-size:14px; gap:6px}
+  .tab small{display:none}
+  .tabs{gap:4px}
+  .lesson-head h2{font-size:24px}
+  .section-head h3{font-size:20px}
+}
