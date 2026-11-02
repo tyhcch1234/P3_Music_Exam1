@@ -80,8 +80,8 @@
               return '<button class="pad" type="button" data-sol="' + i + '" style="min-width:64px"><b>' + s.zh + '</b><small>' + s.hand + '</small></button>';
             }).join('')}
           </div>
-          <div style="display:flex;align-items:center;gap:18px;justify-content:center;margin-top:16px;flex-wrap:wrap">
-            <div id="handBox" style="width:120px;color:#0b6661"></div>
+          <div style="display:flex;align-items:center;gap:26px;justify-content:center;margin-top:18px;flex-wrap:wrap;min-height:170px">
+            <div id="handBox" style="width:150px;color:#0b6661"></div>
             <div style="max-width:38ch">
               <p class="q-stem" id="solfaName" style="font-size:17px">點一個唱名</p>
               <p class="q-note" id="solfaTip">手號可以幫助我們記住音高的距離。</p>

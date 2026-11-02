@@ -161,9 +161,10 @@
     var offset = opts.offset || 0;
     var timers = [];
 
+    var acc = 0;
     notes.forEach(function (n, i) {
       var midi = n[0], beats = n[1] || 1;
-      var t = t0 + offset + i * beat;
+      var t = t0 + offset + acc * beat;
       if (midi != null) Sound.tone(midi, t, Math.max(0.09, beats * beat * 0.94), {
         type: opts.type || 'triangle',
         gain: opts.gain == null ? 0.16 : opts.gain,
@@ -174,10 +175,13 @@
       });
       if (opts.onNote) {
         var ms = Math.max(0, (t - c.currentTime) * 1000);
-        timers.push(setTimeout(function () { opts.onNote(i, midi, beats); }, ms));
+        (function (idx, m, b) {
+          timers.push(setTimeout(function () { opts.onNote(idx, m, b); }, ms));
+        })(i, midi, beats);
       }
+      acc += beats;
     });
-    var total = notes.reduce(function (s, n) { return s + (n[1] || 1); }, 0) * beat;
+    var total = acc * beat;
     if (opts.onEnd) timers.push(setTimeout(opts.onEnd, (total + 0.25) * 1000));
 
     return {
