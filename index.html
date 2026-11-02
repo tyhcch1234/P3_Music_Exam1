@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小三音樂溫習室 · P3 Music Revision</title>
+<meta name="description" content="按《Primary 3 1st Term Music Booklet》整理的互動音樂溫習網站：五線譜、音樂與氣氛、世界音樂、木笛、聖誕合奏，每課設互動教學與小測。">
+<meta name="theme-color" content="#fdf6ea">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2312857f'/%3E%3Ctext x='16' y='23' font-size='19' text-anchor='middle' fill='%23fdf6ea' font-family='Georgia,serif'%3E%E2%99%AA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">跳到主要內容</a>
+
+<header class="topbar">
+  <a class="brand" href="#stave">
+    <span class="brand-mark" aria-hidden="true">♪</span>
+    <span class="brand-text">
+      <strong>小三音樂溫習室</strong>
+      <small>P3 · 1st Term Music</small>
+    </span>
+  </a>
+
+  <nav class="tabs" id="tabs" aria-label="課節分頁"></nav>
+
+  <div class="topbar-tools">
+    <div class="progress" id="progress" title="已完成小測">
+      <span class="progress-ring" id="progressRing" aria-hidden="true">
+        <svg viewBox="0 0 36 36"><circle class="pr-bg" cx="18" cy="18" r="15"></circle><circle class="pr-fg" id="prFg" cx="18" cy="18" r="15"></circle></svg>
+      </span>
+      <span class="progress-text" id="progressText">0 / 5</span>
+    </div>
+    <button class="tool-btn" id="glossaryBtn" type="button">音樂詞彙</button>
+    <button class="tool-btn tool-btn--icon" id="soundBtn" type="button" aria-pressed="true" title="開啟／關閉聲音" aria-label="聲音開關"></button>
+  </div>
+</header>
+
+<div class="hero" id="hero">
+  <div class="hero-copy">
+    <p class="kicker">Lingnan University Alumni Association (HK) Primary School</p>
+    <h1>小三上學期<br><em>音樂</em>溫習室</h1>
+    <p class="hero-lead">依照課本《Primary 3 1st Term Music Booklet》編排：每課先看互動教學，再做小測。全部示範聲音由網頁即時合成，按一下就聽得見。</p>
+    <div class="hero-badges">
+      <span class="badge">5 個課節</span>
+      <span class="badge">40+ 條小測題目</span>
+      <span class="badge">即時發聲示範</span>
+    </div>
+    <a class="hero-cta" href="#stave">開始溫習 →</a>
+  </div>
+  <div class="hero-art">
+    <img src="assets/img/hero.webp" alt="四個小朋友分別吹小號、唱歌、吹木笛和彈結他，站在五線譜上" width="1400" height="933">
+  </div>
+</div>
+
+<main id="main"></main>
+
+<footer class="site-foot">
+  <div>
+    <strong>小三音樂溫習室</strong>
+    <p>內容整理自校內《Primary 3 1st Term Music Booklet》，供同學溫習之用。所有音效由瀏覽器即時合成，無需下載。</p>
+  </div>
+  <div class="foot-actions">
+    <button class="tool-btn" id="resetBtn" type="button">重設進度</button>
+  </div>
+</footer>
+
+<!-- 詞彙表 -->
+<div class="modal" id="glossaryModal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="glossaryTitle">
+    <div class="modal-head">
+      <h2 id="glossaryTitle">音樂詞彙表 <span>Music Terms Glossary</span></h2>
+      <button class="modal-x" type="button" data-close aria-label="關閉">×</button>
+    </div>
+    <input class="glossary-search" id="glossarySearch" type="search" placeholder="搜尋中英文詞彙，例如 fermata 或 延長">
+    <div class="glossary-grid" id="glossaryGrid"></div>
+    <p class="modal-foot">詞彙取自課本第 27–28 頁。</p>
+  </div>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/audio.js"></script>
+<script src="assets/js/staff.js"></script>
+<script src="assets/js/icons.js"></script>
+<script src="assets/js/quiz.js"></script>
+<script src="assets/js/lessons/stave.js"></script>
+<script src="assets/js/lessons/unit1.js"></script>
+<script src="assets/js/lessons/unit2.js"></script>
+<script src="assets/js/lessons/unit3.js"></script>
+<script src="assets/js/lessons/unit4.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

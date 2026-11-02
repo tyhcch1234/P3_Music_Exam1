@@ -1,0 +1,26 @@
+/* 音樂詞彙表 — 取自課本第 27–28 頁 */
+window.GLOSSARY = [
+  ['rhythm', '節奏'], ['eighth note', '八分音符'], ['quarter note', '四分音符'],
+  ['whole note', '全音符'], ['sixteenth note', '十六分音符'], ['rest', '休止符'],
+  ['pitch', '音調'], ['melody', '旋律'], ['harmony', '和聲'],
+  ['instrument', '樂器'], ['note', '音符'], ['tempo', '速度'],
+  ['dynamics', '強弱'], ['chorus', '合唱'], ['solo', '獨奏'],
+  ['sheet music', '樂譜'], ['scale', '音階'], ['repeat', '重複'],
+  ['crescendo', '漸強'], ['decrescendo', '漸弱'], ['metronome', '節拍器'],
+  ['bass', '低音'], ['treble', '高音'], ['musical symbols', '音樂符號'],
+  ['soloist', '獨奏者'], ['performance', '演奏'], ['accompaniment', '伴奏'],
+  ['musical phrase', '音樂旋律'], ['key', '調性'], ['notation', '音樂記號'],
+  ['chord progression', '和聲進行'], ['composition', '音樂作品'], ['musician', '音樂家'],
+  ['ensemble', '合奏'], ['beat', '拍子'], ['meter', '節拍'],
+  ['movement', '樂章'], ['timbre', '音色'], ['improvisation', '即興'],
+  ['conductor', '指揮'], ['practice', '訓練'], ['chord', '和弦'],
+  ['range', '音域'], ['tune', '曲調'], ['concert', '音樂會'],
+  ['genre', '音樂類型'], ['style', '音樂風格'], ['expression', '感情'],
+  ['binary form', '二段體'], ['ternary form', '三段體'], ['melodic line', '旋律線'],
+  ['accent', '重音'], ['duo', '雙音'], ['musical theatre', '音樂劇'],
+  ['pop music', '流行音樂'], ['classical music', '古典音樂'], ['folk music', '民謠'],
+  ['percussion instrument', '敲擊樂器'], ['string instrument', '弦樂器'],
+  ['woodwind instrument', '木管樂器'], ['brass instrument', '銅管樂器'],
+  ['volume', '音量'], ['melodic repetition', '旋律重複'], ['musical theme', '音樂主題'],
+  ['marking', '標記'], ['jam session', '即興演奏']
+];
