@@ -173,26 +173,39 @@
   /* interactive explorer: lines & spaces clickable */
   Staff.explore = function (opts) {
     opts = opts || {};
-    var gap = 14, top = 40, width = opts.width || 560, height = top + 4 * gap + 40;
+    var gap = 16, top = 46, width = opts.width || 640;
+    var height = top + 4 * gap + 40;
+    var x0 = 18, x1 = width - 168;
     var color = '#232733';
-    var x0 = 18, x1 = width - 16;
     var s = '<svg class="staff-svg" viewBox="0 0 ' + width + ' ' + height + '" style="width:100%;height:auto;display:block" role="group" aria-label="點擊五線譜上的線與間">';
+
     for (var i = 0; i < 5; i++) {
       var y = top + i * gap;
       s += '<line x1="' + x0 + '" y1="' + y + '" x2="' + x1 + '" y2="' + y + '" stroke="' + color + '" stroke-width="1.4" opacity=".6"/>';
     }
     s += Staff.clefSVG(Staff.clefX + 2, top, gap);
 
-    var startX = 110;
+    var startX = 118;
     for (var p = 0; p <= 8; p++) {
       var cy = Staff.yOf(p, top, gap);
       var isLine = p % 2 === 0;
       var label = Staff.pToName(p).label;
-      s += '<g class="staff-hit" data-p="' + p + '" tabindex="0" role="button" aria-label="第 ' + p + ' 級，' + label + '">' +
-        '<rect x="' + (startX - 26) + '" y="' + (cy - 6) + '" width="' + (x1 - startX + 10) + '" height="12" fill="transparent" style="cursor:pointer"/>' +
-        '<circle cx="' + (startX + 8) + '" cy="' + cy + '" r="' + (isLine ? 4 : 3) + '" fill="#c9bda8"/>' +
-        '<text x="' + (x1 - 6) + '" y="' + (cy + 4) + '" text-anchor="end" font-size="11" fill="#a99e8c">' + (isLine ? '線' : '間') + '</text>' +
+      s += '<g class="staff-hit" data-p="' + p + '" tabindex="0" role="button" aria-label="' + (isLine ? '第 ' + (p / 2 + 1) + ' 線，' : '第 ' + ((p - 1) / 2 + 1) + ' 間，') + label + '">' +
+        '<rect x="' + (startX - 20) + '" y="' + (cy - 8) + '" width="' + (x1 - startX + 24) + '" height="16" fill="transparent" style="cursor:pointer"/>' +
+        '<circle cx="' + startX + '" cy="' + cy + '" r="5" fill="#d9cdb6"/>' +
         '</g>';
+    }
+
+    // right-hand labels (lines and spaces in two columns, never overlapping)
+    for (var lp = 0; lp <= 8; lp += 2) {
+      var ly = Staff.yOf(lp, top, gap) + 4;
+      s += '<text x="' + (x1 + 16) + '" y="' + ly + '" font-size="11" fill="#a99e8c">第 ' + (lp / 2 + 1) + ' 線</text>';
+      s += '<text x="' + (x1 + 58) + '" y="' + ly + '" font-size="11" font-weight="700" fill="#8a7f6d">' + Staff.pToName(lp).label + '</text>';
+    }
+    for (var sp = 1; sp <= 7; sp += 2) {
+      var sy = Staff.yOf(sp, top, gap) + 4;
+      s += '<text x="' + (x1 + 90) + '" y="' + sy + '" font-size="11" fill="#a99e8c">第 ' + ((sp - 1) / 2 + 1) + ' 間</text>';
+      s += '<text x="' + (x1 + 132) + '" y="' + sy + '" font-size="11" font-weight="700" fill="#8a7f6d">' + Staff.pToName(sp).label + '</text>';
     }
     s += '</svg>';
     return s;

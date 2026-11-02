@@ -117,23 +117,29 @@
             <p class="readout" id="recOut"></p>
           </div>
           <div class="stage" style="margin-top:0;display:grid;place-items:center">
-            <svg viewBox="0 0 190 300" id="recSvg" style="width:min(100%,230px);height:auto" aria-label="木笛指法圖">
-              <rect x="78" y="8" width="30" height="38" rx="8" fill="#f6ead6" stroke="#b9925c" stroke-width="2"/>
-              <path d="M72 46 h42 l7 196 q1 18 -16 22 h-22 q-17 -4 -16 -22 z" fill="#fbf1de" stroke="#b9925c" stroke-width="2"/>
-              <rect x="84" y="62" width="16" height="12" rx="4" fill="#e3cba6"/>
-              <g id="holeT"><circle cx="60" cy="120" r="7" fill="#fff" stroke="#8a6b3e" stroke-width="2.2"/><text x="60" y="124" text-anchor="middle" font-size="8" fill="#8a6b3e">T</text></g>
-              <g id="hole1"><circle cx="90" cy="132" r="8.4" fill="#fff" stroke="#8a6b3e" stroke-width="2.2"/></g>
-              <g id="hole2"><circle cx="90" cy="158" r="8.4" fill="#fff" stroke="#8a6b3e" stroke-width="2.2"/></g>
-              <g id="hole3"><circle cx="90" cy="184" r="8.4" fill="#fff" stroke="#8a6b3e" stroke-width="2.2"/></g>
-              <g id="hole4"><circle cx="90" cy="210" r="8.4" fill="#fff" stroke="#8a6b3e" stroke-width="2.2"/></g>
-              <g id="hole5"><circle cx="90" cy="234" r="8.4" fill="#fff" stroke="#8a6b3e" stroke-width="2.2"/></g>
-              <g id="hole6"><circle cx="90" cy="256" r="8.4" fill="#fff" stroke="#8a6b3e" stroke-width="2.2"/></g>
-              <g fill="#8a6b3e" font-size="10">
-                <text x="112" y="136">1</text><text x="112" y="162">2</text><text x="112" y="188">3</text>
-                <text x="112" y="214">4</text><text x="112" y="238">5</text><text x="112" y="260">6</text>
+            <svg viewBox="0 0 190 330" id="recSvg" style="width:min(100%,240px);height:auto" aria-label="木笛指法圖">
+              <rect x="76" y="6" width="36" height="32" rx="9" fill="#f6ead6" stroke="#b9925c" stroke-width="2"/>
+              <path d="M78 38 h32 l4 40 h-40 z" fill="#fdf6e8" stroke="#b9925c" stroke-width="2"/>
+              <path d="M74 78 h40 l6 192 h-52 z" fill="#fbf1de" stroke="#b9925c" stroke-width="2"/>
+              <path d="M68 270 h52 q6 0 8 8 l6 28 q2 10 -8 10 h-64 q-10 0 -8 -10 l6 -28 q2 -8 8 -8 z" fill="#fbf1de" stroke="#b9925c" stroke-width="2"/>
+              <rect x="86" y="52" width="18" height="12" rx="4" fill="#e3cba6" stroke="#b9925c" stroke-width="1.4"/>
+              <path d="M74 86 h40 M68 270 h52" stroke="#b9925c" stroke-width="1.4" opacity=".6"/>
+
+              <g id="holeT">
+                <circle cx="82" cy="112" r="8" fill="#fff" stroke="#8a6b3e" stroke-width="2" stroke-dasharray="3 2.5"/>
+                <text x="82" y="116" text-anchor="middle" font-size="9" fill="#8a6b3e">T</text>
               </g>
-              <text x="46" y="150" font-size="10" fill="#2f74b5">左手</text>
-              <text x="104" y="230" font-size="10" fill="#2f74b5">右手</text>
+              <g id="hole1"><circle cx="94" cy="104" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="108" font-size="11" fill="#8a6b3e">1</text></g>
+              <g id="hole2"><circle cx="94" cy="132" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="136" font-size="11" fill="#8a6b3e">2</text></g>
+              <g id="hole3"><circle cx="94" cy="160" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="164" font-size="11" fill="#8a6b3e">3</text></g>
+              <g id="hole4"><circle cx="94" cy="196" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="200" font-size="11" fill="#8a6b3e">4</text></g>
+              <g id="hole5"><circle cx="94" cy="224" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="228" font-size="11" fill="#8a6b3e">5</text></g>
+              <g id="hole6"><circle cx="94" cy="252" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="256" font-size="11" fill="#8a6b3e">6</text></g>
+
+              <path d="M52 96 v76" stroke="#2f74b5" stroke-width="1.4" opacity=".5"/>
+              <text x="46" y="140" font-size="11" fill="#2f74b5" text-anchor="middle" transform="rotate(-90 46 140)">左手 Left</text>
+              <path d="M142 188 v84" stroke="#2f74b5" stroke-width="1.4" opacity=".5"/>
+              <text x="152" y="232" font-size="11" fill="#2f74b5" text-anchor="middle" transform="rotate(-90 152 232)">右手 Right</text>
             </svg>
           </div>
         </div>

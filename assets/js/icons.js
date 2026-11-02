@@ -30,16 +30,16 @@
     congas: '<ellipse cx="32" cy="16" rx="12" ry="4.4"/><path d="M20 16 v26 c0 4 5 7 12 7 s12 -3 12 -7 V16"/><path d="M24 49 L20 58 M40 49 L44 58"/><path d="M20 30 h24" opacity=".4"/>',
     claves: '<path d="M14 40 L38 20"/><path d="M26 46 L50 26"/>',
 
-    violin: '<path d="M27 26 c-6 -3 -11 2 -9 8 c1.6 5 6 7 9 6 c3 6 3 12 -1 15 c-5 4 -12 0 -12 -6 c0 -3 2 -5 4 -6"/><path d="M27 26 L38 12"/><path d="M38 12 q4 -4 7 0 q2 4 -2 6"/><path d="M22 30 h6 M20 44 h7" opacity=".6"/><path d="M14 52 L54 14" opacity=".55"/>',
-    cello: '<path d="M31 24 c-7 -4 -13 2 -10 9 c1.6 5 6 7 10 6 c3 7 2 13 -3 16 c-6 4 -13 -1 -13 -8 c0 -4 3 -6 6 -7"/><path d="M31 24 L42 8"/><path d="M42 8 q4 -4 7 0 q1 4 -3 5"/><path d="M31 56 v6 M26 62 h10"/>',
+    violin: '<path d="M32 20 C26 20 22 24 22 29 C22 32 24 34 22 37 C19 41 20 49 25 52 C29 54 31 53 32 57 C33 53 35 54 39 52 C44 49 45 41 42 37 C40 34 42 32 42 29 C42 24 38 20 32 20 Z"/><path d="M32 20 V10"/><circle cx="32" cy="7" r="3.2"/><path d="M29 24 V50 M35 24 V50" opacity=".4"/><path d="M26.5 33 q3 2 1 5 M37.5 33 q-3 2 -1 5" opacity=".55"/>',
+    cello: '<path d="M32 24 C25 24 20 29 20 35 C20 39 22 41 20 44 C17 49 18 57 24 59 C28 61 31 60 32 63 C33 60 36 61 40 59 C46 57 47 49 44 44 C42 41 44 39 44 35 C44 29 39 24 32 24 Z"/><path d="M32 24 V12"/><circle cx="32" cy="8.5" r="3.2"/><path d="M32 63 V69 M28 69 H36"/><path d="M29.5 32 V54" opacity=".4"/><path d="M27 42 H37" opacity=".5"/>',
     flute: '<rect x="8" y="27" width="48" height="9" rx="4.5"/><circle cx="24" cy="31.5" r="2.6"/><circle cx="32" cy="31.5" r="2.6"/><circle cx="40" cy="31.5" r="2.6"/><path d="M14 31.5 h4"/>',
     clarinet: '<path d="M30 8 h6 l1 38 l8 8 l-6 4 l-10 -8 z"/><circle cx="31" cy="20" r="2.2"/><circle cx="32" cy="28" r="2.2"/><circle cx="33" cy="36" r="2.2"/><path d="M34 46 l7 6"/>',
     trumpet: '<path d="M8 28 h30 l8 -8 l6 12 l-6 12 l-8 -8 H8 z"/><path d="M48 24 v22" opacity=".5"/><path d="M22 26 v12 M28 26 v12 M34 26 v12"/><path d="M8 28 v12"/>',
     trombone: '<path d="M8 24 h24 v10 H8 z"/><path d="M32 26 h10 v16"/><path d="M42 34 q10 0 10 8 q0 6 -8 6"/><path d="M22 24 v-6 M28 24 v-6"/>',
-    horn: '<path d="M14 32 a18 18 0 1 0 36 0 a18 18 0 1 0 -36 0"/><path d="M24 20 q10 8 0 24"/><path d="M38 18 q-6 14 4 26"/><path d="M30 10 v-4"/>',
+    horn: '<circle cx="26" cy="36" r="10"/><circle cx="26" cy="36" r="4.5" opacity=".5"/><path d="M33 29 Q43 19 55 17 L54 39 Q43 37 34 43"/><path d="M54 17 q3 11 0 22"/><path d="M20 30 q-4 6 0 12" opacity=".4"/>',
     timpani: '<path d="M16 26 q16 8 32 0 v4 q-16 12 -32 0 z"/><path d="M16 30 v12 q16 10 32 0 V30"/><path d="M16 26 q16 -14 32 0"/><path d="M40 8 L34 26 M50 12 L42 26"/>',
-    harp: '<path d="M20 52 V16 q0 -6 6 -6 h4"/><path d="M20 52 h24"/><path d="M44 52 q-4 -22 -14 -34"/><path d="M26 22 v22 M31 20 v24 M36 22 v22 M40 28 v18" opacity=".55"/>',
-    xylophone: '<path d="M10 26 h44 M10 38 h44"/><path d="M16 26 v12 M26 26 v12 M36 26 v12 M46 26 v12"/><path d="M10 46 h44" opacity=".5"/><path d="M24 12 L34 22"/>'
+    harp: '<path d="M16 56 L32 10 L52 56 Z"/><path d="M24 56 V26 M31 56 V20 M38 56 V19 M45 56 V24" opacity=".45"/><path d="M14 56 H54" stroke-width="3"/>',
+    xylophone: '<path d="M12 24 H52 L58 46 H6 Z"/><path d="M16 30 H48 M13 36 H51 M10 42 H54" opacity=".6"/><path d="M22 14 L32 24 M46 12 L38 22"/>'
   };
 
   /* ---------- orchestral families ---------- */
@@ -58,40 +58,37 @@
   };
 
   function handSVG(name) {
-    var cfg = HANDS[name] || HANDS.do;
-    var g = '<svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
-    // forearm
-    g += '<path d="M16 70 q8 -6 8 -14" opacity=".35"/>';
-    // palm
-    g += '<rect x="24" y="34" width="34" height="24" rx="11" fill="rgba(255,255,255,.5)"/>';
-    switch (cfg.fingers) {
-      case 'fist':
-        g += '<path d="M30 34 v-3 M38 34 v-3 M46 34 v-3 M53 34 v-3" opacity=".55"/>';
-        g += '<path d="M26 46 q6 4 12 0 q6 4 12 0" opacity=".45"/>';
-        break;
-      case 'ramp':
-        g += '<path d="M30 34 l6 -12 M38 34 l6 -10 M46 34 l5 -7 M54 36 l3 -4"/>';
-        break;
-      case 'flat':
-        g += '<path d="M58 40 h14 M58 46 h15 M58 52 h14 M56 58 h11"/>';
-        break;
-      case 'thumb-down':
-        g += '<path d="M34 58 q4 8 2 14"/>';
-        g += '<path d="M42 34 v-3 M50 34 v-3" opacity=".55"/>';
-        break;
-      case 'vertical':
-        g += '<path d="M26 34 v-16 M34 34 v-20 M42 34 v-19 M50 34 v-14"/>';
-        break;
-      case 'droop':
-        g += '<path d="M30 36 q-2 10 -10 14 M38 36 q-2 12 -9 17 M46 36 q0 12 -6 18 M53 38 q2 10 -2 16"/>';
-        break;
-      case 'point-up':
-        g += '<path d="M38 34 v-22"/><path d="M38 12 l-4 5 M38 12 l4 5" opacity=".7"/>';
-        g += '<path d="M46 34 v-3 M52 34 v-3" opacity=".55"/>';
-        break;
+    var s = '<svg class="hand-ic" viewBox="0 0 100 114" fill="#fffdf8" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true">';
+    function R(x, y, w, h, r, rot, cx, cy) {
+      var t = rot ? ' transform="rotate(' + rot + ' ' + (cx == null ? x + w / 2 : cx) + ' ' + (cy == null ? y + h / 2 : cy) + ')"' : '';
+      return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="' + r + '"' + t + '/>';
     }
-    g += '</svg>';
-    return g;
+    s += '<path d="M50 112 v-12" stroke-width="15" opacity=".18" stroke-linecap="round"/>';
+    if (name === 'do') {
+      s += '<g>' + R(34, 52, 32, 36, 13) + R(36, 44, 8, 12, 4) + R(45, 42, 8, 14, 4) + R(54, 43, 8, 13, 4) + R(63, 45, 7, 11, 4) + R(36, 65, 27, 8, 4) + '</g>';
+    } else if (name === 're') {
+      s += '<g transform="rotate(-18 50 74)">' + R(34, 52, 32, 36, 13) + R(36, 44, 8, 12, 4) + R(45, 42, 8, 14, 4) + R(54, 43, 8, 13, 4) + R(63, 45, 7, 11, 4) + R(36, 66, 27, 8, 4) + '</g>';
+    } else if (name === 'mi') {
+      s += R(28, 48, 38, 30, 13);
+      s += R(66, 50, 26, 7.5, 3.6) + R(66, 59, 28, 7.5, 3.6) + R(66, 68, 26, 7.5, 3.6) + R(63, 76.5, 23, 7.5, 3.6);
+      s += R(26, 78, 7.5, 17, 3.6, 28, 30, 78);
+    } else if (name === 'fa') {
+      s += R(34, 50, 32, 36, 13) + R(36, 42, 8, 12, 4) + R(45, 40, 8, 14, 4) + R(54, 41, 8, 13, 4) + R(63, 43, 7, 11, 4);
+      s += R(55, 84, 8, 20, 4, 8, 59, 94);
+    } else if (name === 'sol') {
+      s += R(42, 44, 22, 44, 11);
+      s += R(42, 20, 7, 26, 3.6) + R(50.5, 15, 7, 31, 3.6) + R(59, 18, 7, 28, 3.6) + R(66, 25, 6, 21, 3);
+    } else if (name === 'la') {
+      s += R(34, 26, 34, 32, 13);
+      s += R(36, 56, 7, 28, 3.6, 10, 39, 70) + R(45, 58, 7, 30, 3.6, 4, 48, 73) + R(54, 58, 7, 30, 3.6, -4, 57, 73) + R(62, 56, 7, 28, 3.6, -10, 65, 70);
+      s += R(24, 28, 7, 16, 3.6, -28, 28, 36);
+    } else if (name === 'ti') {
+      s += R(34, 52, 32, 36, 13);
+      s += R(45.5, 18, 8.5, 36, 4.2);
+      s += R(56, 44, 8, 12, 4) + R(64, 46, 7, 10, 4) + R(36, 66, 25, 8, 4);
+    }
+    s += '</svg>';
+    return s;
   }
   Icons.hand = handSVG;
 

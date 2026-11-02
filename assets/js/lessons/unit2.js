@@ -134,19 +134,19 @@
         <h4>四個常用符號 <span class="tag">Symbols</span></h4>
         <div class="grid4">
           <div class="stage" style="margin-top:0;text-align:center">
-            <svg viewBox="0 0 120 90" style="width:100%;height:80px"><g fill="none" stroke="#12857f" stroke-width="3" stroke-linecap="round"><ellipse cx="52" cy="62" rx="9" ry="7" fill="#12857f" transform="rotate(-20 52 62)"/><path d="M60 60 V18"/><path d="M60 18 q16 6 10 22"/></g></svg>
+            <svg viewBox="0 0 120 96" style="width:100%;height:88px"><g fill="none" stroke="#0b6661" stroke-width="5" stroke-linecap="round"><ellipse cx="50" cy="66" rx="11" ry="8.5" fill="#0b6661" stroke="none" transform="rotate(-20 50 66)"/><path d="M60 63 V16"/><path d="M60 16 q18 7 11 25"/></g></svg>
             <p style="font-size:13px;margin-top:6px"><b>Quaver</b> 八分音符<br><span class="zh">＝ 半拍</span></p>
           </div>
           <div class="stage" style="margin-top:0;text-align:center">
-            <svg viewBox="0 0 120 90" style="width:100%;height:80px"><path d="M56 20 q14 6 0 16 q-14 10 0 18 q10 6 2 16" fill="none" stroke="#12857f" stroke-width="4" stroke-linecap="round"/></svg>
+            <svg viewBox="0 0 120 96" style="width:100%;height:88px"><path d="M56 16 q16 8 0 20 q-16 12 0 22 q12 8 2 20" fill="none" stroke="#0b6661" stroke-width="6" stroke-linecap="round"/></svg>
             <p style="font-size:13px;margin-top:6px"><b>Crotchet rest</b><br><span class="zh">四分休止符（停一拍）</span></p>
           </div>
           <div class="stage" style="margin-top:0;text-align:center">
-            <svg viewBox="0 0 120 90" style="width:100%;height:80px"><path d="M28 52 q32 -34 64 0" fill="none" stroke="#12857f" stroke-width="4" stroke-linecap="round"/><circle cx="60" cy="60" r="5" fill="#12857f"/></svg>
+            <svg viewBox="0 0 120 96" style="width:100%;height:88px"><path d="M24 58 q36 -38 72 0" fill="none" stroke="#0b6661" stroke-width="6" stroke-linecap="round"/><circle cx="60" cy="68" r="7" fill="#0b6661"/></svg>
             <p style="font-size:13px;margin-top:6px"><b>Fermata</b> 延長號<br><span class="zh">把這個音延長</span></p>
           </div>
           <div class="stage" style="margin-top:0;text-align:center">
-            <svg viewBox="0 0 140 90" style="width:100%;height:80px"><g fill="none" stroke="#12857f" stroke-width="3"><path d="M34 64 h72"/><path d="M90 24 v40"/><ellipse cx="58" cy="60" rx="7" ry="5.5" fill="#12857f" transform="rotate(-20 58 60)"/><path d="M65 59 V30"/><path d="M34 46 h34" stroke-dasharray="4 5" opacity=".5"/></g></svg>
+            <svg viewBox="0 0 140 96" style="width:100%;height:88px"><g fill="none" stroke="#0b6661" stroke-width="4"><path d="M28 70 h84"/><path d="M96 22 v48"/><ellipse cx="56" cy="66" rx="9" ry="7" fill="#0b6661" stroke="none" transform="rotate(-20 56 66)"/><path d="M65 63 V26"/><path d="M28 48 h40" stroke-dasharray="5 6" opacity=".45"/><path d="M24 62 v16 M32 70 v-8" opacity=".5"/></g></svg>
             <p style="font-size:13px;margin-top:6px"><b>Anacrusis</b> 弱拍起<br><span class="zh">第一小節未滿，由弱拍開始</span></p>
           </div>
         </div>
