@@ -31,12 +31,12 @@
     claves: '<path d="M14 40 L38 20"/><path d="M26 46 L50 26"/>',
 
     violin: '<path d="M32 20 C26 20 22 24 22 29 C22 32 24 34 22 37 C19 41 20 49 25 52 C29 54 31 53 32 57 C33 53 35 54 39 52 C44 49 45 41 42 37 C40 34 42 32 42 29 C42 24 38 20 32 20 Z"/><path d="M32 20 V10"/><circle cx="32" cy="7" r="3.2"/><path d="M29 24 V50 M35 24 V50" opacity=".4"/><path d="M26.5 33 q3 2 1 5 M37.5 33 q-3 2 -1 5" opacity=".55"/>',
-    cello: '<path d="M32 24 C25 24 20 29 20 35 C20 39 22 41 20 44 C17 49 18 57 24 59 C28 61 31 60 32 63 C33 60 36 61 40 59 C46 57 47 49 44 44 C42 41 44 39 44 35 C44 29 39 24 32 24 Z"/><path d="M32 24 V12"/><circle cx="32" cy="8.5" r="3.2"/><path d="M32 63 V69 M28 69 H36"/><path d="M29.5 32 V54" opacity=".4"/><path d="M27 42 H37" opacity=".5"/>',
+    cello: '<path d="M32 24 C25 24 20 29 20 35 C20 39 22 41 20 44 C17 49 18 57 24 59 C28 61 31 60 32 63 C33 60 36 61 40 59 C46 57 47 49 44 44 C42 41 44 39 44 35 C44 29 39 24 32 24 Z"/><path d="M32 24 V12"/><circle cx="32" cy="8.5" r="3.2"/><path d="M32 63 V69 M28 69 H36"/><path d="M29.5 32 V54" opacity=".4"/>',
     flute: '<rect x="8" y="27" width="48" height="9" rx="4.5"/><circle cx="24" cy="31.5" r="2.6"/><circle cx="32" cy="31.5" r="2.6"/><circle cx="40" cy="31.5" r="2.6"/><path d="M14 31.5 h4"/>',
     clarinet: '<path d="M30 8 h6 l1 38 l8 8 l-6 4 l-10 -8 z"/><circle cx="31" cy="20" r="2.2"/><circle cx="32" cy="28" r="2.2"/><circle cx="33" cy="36" r="2.2"/><path d="M34 46 l7 6"/>',
     trumpet: '<path d="M8 28 h30 l8 -8 l6 12 l-6 12 l-8 -8 H8 z"/><path d="M48 24 v22" opacity=".5"/><path d="M22 26 v12 M28 26 v12 M34 26 v12"/><path d="M8 28 v12"/>',
     trombone: '<path d="M8 24 h24 v10 H8 z"/><path d="M32 26 h10 v16"/><path d="M42 34 q10 0 10 8 q0 6 -8 6"/><path d="M22 24 v-6 M28 24 v-6"/>',
-    horn: '<circle cx="26" cy="36" r="10"/><circle cx="26" cy="36" r="4.5" opacity=".5"/><path d="M33 29 Q43 19 55 17 L54 39 Q43 37 34 43"/><path d="M54 17 q3 11 0 22"/><path d="M20 30 q-4 6 0 12" opacity=".4"/>',
+    horn: '<circle cx="25" cy="36" r="12"/><circle cx="25" cy="36" r="5" opacity=".45"/><path d="M35 28 L57 17 L57 43 L35 35 Z"/><path d="M57 17 q4 13 0 26"/><path d="M22 24 v-5 M28 23 v-6" opacity=".55"/>',
     timpani: '<path d="M16 26 q16 8 32 0 v4 q-16 12 -32 0 z"/><path d="M16 30 v12 q16 10 32 0 V30"/><path d="M16 26 q16 -14 32 0"/><path d="M40 8 L34 26 M50 12 L42 26"/>',
     harp: '<path d="M16 56 L32 10 L52 56 Z"/><path d="M24 56 V26 M31 56 V20 M38 56 V19 M45 56 V24" opacity=".45"/><path d="M14 56 H54" stroke-width="3"/>',
     xylophone: '<path d="M12 24 H52 L58 46 H6 Z"/><path d="M16 30 H48 M13 36 H51 M10 42 H54" opacity=".6"/><path d="M22 14 L32 24 M46 12 L38 22"/>'

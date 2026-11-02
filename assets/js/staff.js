@@ -192,7 +192,7 @@
       var label = Staff.pToName(p).label;
       s += '<g class="staff-hit" data-p="' + p + '" tabindex="0" role="button" aria-label="' + (isLine ? '第 ' + (p / 2 + 1) + ' 線，' : '第 ' + ((p - 1) / 2 + 1) + ' 間，') + label + '">' +
         '<rect x="' + (startX - 20) + '" y="' + (cy - 8) + '" width="' + (x1 - startX + 24) + '" height="16" fill="transparent" style="cursor:pointer"/>' +
-        '<circle cx="' + startX + '" cy="' + cy + '" r="5" fill="#d9cdb6"/>' +
+        '<circle cx="' + startX + '" cy="' + cy + '" r="3.6" fill="#c9bda8"/>' +
         '</g>';
     }
 

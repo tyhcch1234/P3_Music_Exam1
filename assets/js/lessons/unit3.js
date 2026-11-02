@@ -121,7 +121,7 @@
               <rect x="76" y="6" width="36" height="32" rx="9" fill="#f6ead6" stroke="#b9925c" stroke-width="2"/>
               <path d="M78 38 h32 l4 40 h-40 z" fill="#fdf6e8" stroke="#b9925c" stroke-width="2"/>
               <path d="M74 78 h40 l6 192 h-52 z" fill="#fbf1de" stroke="#b9925c" stroke-width="2"/>
-              <path d="M68 270 h52 q6 0 8 8 l6 28 q2 10 -8 10 h-64 q-10 0 -8 -10 l6 -28 q2 -8 8 -8 z" fill="#fbf1de" stroke="#b9925c" stroke-width="2"/>
+              <path d="M68 268 h52 q8 0 10 9 l7 28 q3 11 -9 11 h-68 q-12 0 -9 -11 l7 -28 q2 -9 10 -9 z" fill="#fbf1de" stroke="#b9925c" stroke-width="2"/>
               <rect x="86" y="52" width="18" height="12" rx="4" fill="#e3cba6" stroke="#b9925c" stroke-width="1.4"/>
               <path d="M74 86 h40 M68 270 h52" stroke="#b9925c" stroke-width="1.4" opacity=".6"/>
 
