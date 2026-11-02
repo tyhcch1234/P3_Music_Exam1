@@ -126,8 +126,8 @@
               <path d="M74 86 h40 M68 270 h52" stroke="#b9925c" stroke-width="1.4" opacity=".6"/>
 
               <g id="holeT">
-                <circle cx="81" cy="92" r="8" fill="#fff" stroke="#8a6b3e" stroke-width="2" stroke-dasharray="3 2.5"/>
-                <text x="81" y="96" text-anchor="middle" font-size="9" fill="#8a6b3e">T</text>
+                <circle cx="85" cy="92" r="8" fill="#fff" stroke="#8a6b3e" stroke-width="2" stroke-dasharray="3 2.5"/>
+                <text x="85" y="96" text-anchor="middle" font-size="9" fill="#8a6b3e">T</text>
               </g>
               <g id="hole1"><circle cx="94" cy="120" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="124" font-size="11" fill="#8a6b3e">1</text></g>
               <g id="hole2"><circle cx="94" cy="146" r="9" fill="#fff" stroke="#8a6b3e" stroke-width="2.4"/><text x="120" y="150" font-size="11" fill="#8a6b3e">2</text></g>
